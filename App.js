@@ -15,6 +15,10 @@ export default class App extends React.Component{
       </View>
 
           <View style={styles.products}>
+            <Image
+             source = {require('./assets/producto.jpeg')}
+             style = {styles.image}
+            />
           </View>
             <View style={ {padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2,position: 'absolute', width: '30%',  height: '5%', top: 288, left: 9}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -23,6 +27,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products2}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 288, left: 132}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -31,6 +39,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products3}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 288, left: 254}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -39,6 +51,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products4}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 430, left: 9}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -47,6 +63,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products5}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 430, left: 132}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -55,6 +75,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products6}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 430, left: 254}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -63,6 +87,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products7}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 578, left: 9}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -71,6 +99,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products8}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 578, left: 132}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -79,6 +111,10 @@ export default class App extends React.Component{
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>$500</Text>
             </View>
           <View style={styles.products9}>
+            <Image
+              source = {require('./assets/producto.jpeg')}
+              style = {styles.image}
+              />
           </View>
             <View style={{padding: 10, alignItems: 'stretch', flexDirection: "row", flex: 2, position: 'absolute', width: '30%',  height: '5%',top: 578, left: 254}}>
             <Text style = { {color: '#000000',  fontSize: 15, textAlign: 'center',alignItems: 'center'}}>Jabon de cafe</Text>
@@ -142,6 +178,15 @@ const styles = StyleSheet.create({
     top: 134,
     left: 0,
     borderRadius:8
+  },
+  image: {
+    padding: 45,
+    width: '30%',
+    alignItems: 'center',
+    position: 'absolute',
+    borderRadius:5,
+    justifyContent: "center",
+    resizeMode: 'contain'
   },
   products:{
     padding: 45,
